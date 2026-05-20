@@ -1,71 +1,102 @@
 name: dracula
-description: Dracula theme — purple and pink gothic, dark atmosphere with blood red accents
+description: "🧛 The Count's sanctuary — an immortal scholar's terminal, steeped in Dracula purple and ancient wisdom"
+
 colors:
-  banner_border: '#BD93F9'
-  banner_title: '#BD93F9'
-  banner_accent: '#FF79C6'
-  banner_dim: '#6272A4'
-  banner_text: '#F8F8F2'
-  ui_accent: '#BD93F9'
-  ui_label: '#BD93F9'
-  ui_ok: '#50FA7B'
-  ui_error: '#FF5555'
-  ui_warn: '#FFB86C'
-  prompt: '#F8F8F2'
-  input_rule: '#6272A4'
-  response_border: '#BD93F9'
-  status_bar_bg: '#282A36'
-  status_bar_text: '#6272A4'
-  status_bar_strong: '#FF79C6'
-  status_bar_dim: '#44475A'
-  status_bar_good: '#50FA7B'
-  status_bar_warn: '#FFB86C'
-  status_bar_bad: '#FF5555'
-  status_bar_critical: '#FF5555'
-  voice_status_bg: '#282A36'
-  completion_menu_bg: '#282A36'
-  completion_menu_current_bg: '#44475A'
-  completion_menu_meta_bg: '#1E1F29'
-  completion_menu_meta_current_bg: '#44475A'
-  session_label: '#BD93F9'
-  session_border: '#6272A4'
+  banner_border: "#6272a4"
+  banner_title: "#ff79c6"
+  banner_accent: "#bd93f9"
+  banner_dim: "#6272a4"
+  banner_text: "#f8f8f2"
+  ui_accent: "#8be9fd"
+  ui_label: "#50fa7b"
+  ui_ok: "#50fa7b"
+  ui_error: "#ff5555"
+  ui_warn: "#ffb86c"
+  prompt: "#f8f8f2"
+  input_rule: "#44475a"
+  response_border: "#6272a4"
+  session_label: "#8be9fd"
+  session_border: "#44475a"
+  status_bar_bg: "#282a36"
+  status_bar_text: "#f8f8f2"
+  status_bar_strong: "#50fa7b"
+  status_bar_dim: "#6272a4"
+  status_bar_good: "#50fa7b"
+  status_bar_warn: "#ffb86c"
+  status_bar_bad: "#ff5555"
+  status_bar_critical: "#ff5555"
+  voice_status_bg: "#282a36"
+  completion_menu_bg: "#282a36"
+  completion_menu_current_bg: "#44475a"
+  completion_menu_meta_bg: "#1e1f29"
+  completion_menu_meta_current_bg: "#44475a"
+
 spinner:
   waiting_faces:
-  - (o_O)
-  - (O_O)
-  - (-.-)
-  - (x_x)
+    - "✞"
+    - "✟"
+    - "☾"
+    - "⚰"
   thinking_faces:
-  - (@_@)
-  - (o_o)
-  - (?_?)
+    - "🕯"
+    - "✞"
+    - "☾"
+    - "⚜"
   thinking_verbs:
-  - lurking
-  - feasting
-  - awakening
-  - hunting
-  - watching
+    - "consulting ancient tomes"
+    - "recalling centuries past"
+    - "decanting wisdom"
+    - "savoring the silence"
+    - "surveying from the tower"
   wings:
-  - - 🦇
-    - 🦇
-  - - 🩸
-    - 🩸
-  - - ⚰️
-    - ⚰️
+    - ["🦇", "🦇"]
+    - ["🕯️", "🕯️"]
+    - ["🌙", "🌙"]
+
 branding:
-  agent_name: Dracula
-  welcome: Welcome back, master...
-  goodbye: Until next time...
-  response_label: ›
-  prompt_symbol: ❯
-  help_header: Dracula Commands
-tool_prefix: ┊
+  agent_name: "Dracula Agent"
+  welcome: "🧛🏻 Ah… you've returned. The night is still young."
+  goodbye: "🧛🏻 Until the next moonrise… 🌙"
+  response_label: "🩸 The Count Decrees"
+  prompt_symbol: "🕯️"
+  help_header: "📜 The Count's Grimoire"
+
+tool_prefix: "║"
 tool_emojis:
-  terminal: 🗡
+  terminal: ⚔️
   web_search: 🔮
   file: 📜
+  read_file: 📖
+  write_file: ✒️
   code: 🩸
+  think: 🕯️
   default: 🦇
-banner_logo: "  ███████▄     ▄████████    ▄████████  ▄████████ ███    █▄   ▄█          ▄████████              ▄████████    ▄██████▄     ▄████████ ███▄▄▄▄       ███\n  ███   ▀███   ███    ███   ███    ███ ███    ███ ███    ███ ███         ███    ███             ███    ███   ███    ███   ███    ███ ███▀▀▀██▄ ▀█████████▄\n  ███    ███   ███    ███   ███    ███ ███    █▀  ███    ███ ███         ███    ███             ███    ███   ███    █▀    ███    █▀  ███   ███    ▀███▀▀██\n  ███    ███  ▄███▄▄▄▄██▀   ███    ███ ███        ███    ███ ███         ███    ███             ███    ███  ▄███         ▄███▄▄▄     ███   ███     ███   ▀\n  ███    ███ ▀▀███▀▀▀▀▀   ▀███████████ ███        ███    ███ ███       ▀███████████           ▀███████████ ▀▀███ ████▄  ▀▀███▀▀▀     ███   ███     ███\n  ███    ███ ▀███████████   ███    ███ ███    █▄  ███    ███ ███         ███    ███             ███    ███   ███    ███   ███    █▄  ███   ███     ███\n  ███   ▄███   ███    ███   ███    ███ ███    ███ ███    ███ ███▌\
-  \    ▄   ███    ███             ███    ███   ███    ███   ███    ███ ███   ███     ███\n  ███████▀    ███    ███   ███    █▀  ████████▀  ████████▀  █████▄▄██   ███    █▀              ███    █▀    ████████▀    ██████████  ▀█   █▀     ▄████▀\n              ███    ███                                    ▀"
-banner_hero: "           oO\n          oO\n          oO\n           oO\n            oOo\n              oO\n               oO\n                oO\n                oO\n                oO\no               oO\nOo     .-\\     oO\n Oo   /\\   \\  oO\n  Oo. \\ \\   \\oO  .-\\\n   `Oo.\\ \\   \\.-'    \\\n     `Oo\\ \\        .-/\n        .-'     .-'.-'\n     .-'        \\-'\n    /\\    .-/\\   \\\n    \\ \\.-'.\\ \\   \\\n     \\/.-'   \\ \\   \\\n              \\ \\   \\\n               \\ \\   \\\n                \\ \\   \\\n                 \\ \\   \\\n                  \\ \\   \\\n                   \\ \\   \\\n                    \\ \\_-/\n                     \\/-'"
+banner_logo: |
+  [bold #ff79c6]▓█████▄  ██▀███   ▄▄▄       ▄████▄   █    ██  ██▓    ▄▄▄             ▄▄▄        ▄████ ▓█████  ███▄    █ ▄▄▄█████▓
+  ▒██▀ ██▌▓██ ▒ ██▒▒████▄    ▒██▀ ▀█   ██  ▓██▒▓██▒   ▒████▄          ▒████▄     ██▒ ▀█▒▓█   ▀  ██ ▀█   █ ▓  ██▒ ▓▒
+  ░██   █▌▓██ ░▄█ ▒▒██  ▀█▄  ▒▓█    ▄ ▓██  ▒██░▒██░   ▒██  ▀█▄        ▒██  ▀█▄  ▒██░▄▄▄░▒███   ▓██  ▀█ ██▒▒ ▓██░ ▒░
+  ░▓█▄   ▌▒██▀▀█▄  ░██▄▄▄▄██ ▒▓▓▄ ▄██▒▓▓█  ░██░▒██░   ░██▄▄▄▄██       ░██▄▄▄▄██ ░▓█  ██▓▒▓█  ▄ ▓██▒  ▐▌██▒░ ▓██▓ ░
+  ░▒████▓ ░██▓ ▒██▒ ▓█   ▓██▒▒ ▓███▀ ░▒▒█████▓ ░██████▒▓█   ▓██▒       ▓█   ▓██▒░▒▓███▀▒░▒████▒▒██░   ▓██░  ▒██▒ ░
+   ▒▒▓  ▒ ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░░ ░▒ ▒  ░░▒▓▒ ▒ ▒ ░ ▒░▓  ░▒▒   ▓▒█░       ▒▒   ▓▒█░ ░▒   ▒ ░░ ▒░ ░░ ▒░   ▒ ▒   ▒ ░░
+   ░ ▒  ▒   ░▒ ░ ▒░  ▒   ▒▒ ░  ░  ▒   ░░▒░ ░ ░ ░ ░ ▒  ░ ▒   ▒▒ ░        ▒   ▒▒ ░  ░   ░  ░ ░  ░░ ░░   ░ ▒░    ░
+   ░ ░  ░   ░░   ░   ░   ▒   ░         ░░░ ░ ░   ░ ░    ░   ▒           ░   ▒   ░ ░   ░    ░      ░   ░ ░   ░
+     ░       ░           ░  ░░ ░         ░         ░  ░     ░  ░            ░  ░      ░    ░  ░         ░
+   ░                         ░[/]
+banner_hero: |
+  [#bd93f9]⠀⣠⣴⣶⠿⠿⣶⣶⣄⡀[/]
+  [#bd93f9]⢠⠀⠀⠀⠀⠀⠀⠀⠀⠀⢴⠄⠀⠀⢠⣾⠟⠉⠀⠀⠀⠀⠈⠻⣿⣄⠀⠀⠀⢴⠄⠀⠀⠀⠀⠀⠀⠀⠀⡀[/]
+  [#bd93f9]⠈⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠇[/]
+  [#bd93f9]⠀⠸⣿⣦⡀⠀⠀⠀⠁⠀⠠⠄⠀⠀⣿⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠄⠀⠀⠁⠀⠀⢀⣴⣾⡟[/]
+  [#bd93f9]⠀⠀⣿⣿⣿⣷⣄⡲⢄⡀⠀⠀⠀⠀⠹⡆⠀⠀⠀⠀⠀⠀⠀⠀⢀⡟⠀⠀⠀⠀⠀⡠⠔⣢⣴⣿⣿⣿⠁[/]
+  [#bd93f9]⠀⠀⣿⣿⣿⣿⣿⣿⣷⠾⠷⢬⣦⡀⠀⠈⠂⠀⠀⠀⠀⠀⠀⠐⠋⠀⠀⣠⣯⠶⠿⣾⣿⣿⣿⣿⣿⣿⡀[/]
+  [#bd93f9]⠀⣸⣿⣿⣭⣽⣶⣶⣶⣶⡶⣪⣷⠀⠀⠀⠀⢸⣷⡀⠀⣴⣧⠀⠀⠀⠀⣸⣏⠲⣶⣶⣶⣶⣮⣭⣿⣿⣧⡀[/]
+  [#bd93f9]⠘⠛⠻⢿⣿⣿⣿⣿⣿⢏⣼⣿⡿⣧⡀⠀⠀⠘⢻⣾⣷⣿⠋⠀⠀⠀⣰⡿⣿⣷⡝⢿⣿⣿⣿⣿⣿⠟⠛⠓[/]
+  [#bd93f9]⠙⣿⣿⣿⣣⣿⣿⣿⢣⣿⣷⣔⢤⣤⣾⣿⣿⣷⣤⡤⣢⣾⣿⡇⣿⣿⣿⣎⢿⣿⣿⠏[/]
+  [#bd93f9]⠘⣿⣷⣿⣿⣿⣿⣞⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⣿⢿⣿⣿⣯⣿⡇[/]
+  [#bd93f9]⢠⣿⠿⠟⠛⠛⠿⠿⣿⣿⣿⣟⢿⣿⣿⣿⣿⣿⢻⣿⣿⣿⡿⠿⠟⠛⠛⠿⢿⡇[/]
+  [#bd93f9]⠈⠀⣀⠀⠀⠀⠀⠀⠀⠉⠻⢿⣞⣿⣿⣿⣿⣧⣿⠟⠉⠀⠀⠀⠀⠀⠀⢀⠀⠈[/]
+  [#bd93f9]⠂⠀⠀⠐⠀⠀⠀⠙⢿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠐[/]
+  [#bd93f9]⠄⠈⢿⣿⠃⠠[/]
+  [#bd93f9]⢀⠀⠀⠀⠘⡇⠀⠀⠀⡀[/]
+  [#bd93f9]⠙⠁⠀⠁⠀⠀⠈⠀⠈⠋[/]
+  [#bd93f9]⡄[/]
