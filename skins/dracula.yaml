@@ -13,8 +13,8 @@ colors:
   ui_error: "#ff5555"
   ui_warn: "#ffb86c"
   prompt: "#f8f8f2"
-  input_rule: "#44475a"
-  response_border: "#6272a4"
+  input_rule: "#6272a4"
+  response_border: "#ff79c6"
   session_label: "#8be9fd"
   session_border: "#44475a"
   status_bar_bg: "#282a36"
@@ -28,7 +28,7 @@ colors:
   voice_status_bg: "#282a36"
   completion_menu_bg: "#282a36"
   completion_menu_current_bg: "#44475a"
-  completion_menu_meta_bg: "#1e1f29"
+  completion_menu_meta_bg: "#282a36"
   completion_menu_meta_current_bg: "#44475a"
 
 spinner:
