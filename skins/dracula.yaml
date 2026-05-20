@@ -38,9 +38,9 @@ spinner:
     - "☾"
     - "⚰"
   thinking_faces:
-    - "🕯"
+    - "⚗"
     - "✞"
-    - "☾"
+    - "☽"
     - "⚜"
   thinking_verbs:
     - "consulting ancient tomes"
@@ -49,9 +49,9 @@ spinner:
     - "savoring the silence"
     - "surveying from the tower"
   wings:
-    - ["🦇", "🦇"]
-    - ["🕯️", "🕯️"]
-    - ["🌙", "🌙"]
+    - ["☾", "☽"]
+    - ["†", "†"]
+    - ["✟", "✟"]
 
 branding:
   agent_name: "Dracula Agent"
@@ -61,15 +61,19 @@ branding:
   prompt_symbol: "🕯️"
   help_header: "📜 The Count's Grimoire"
 
-tool_prefix: "║"
+tool_prefix: "│"
 tool_emojis:
-  terminal: ⚔️
+  terminal: ⚰️
   web_search: 🔮
   file: 📜
-  read_file: 📖
+  read_file: 👁️
   write_file: ✒️
   code: 🩸
   think: 🕯️
+  browser_cdp: 🕸️
+  browser_click: 🦷
+  execute_code: ⚗️
+  delegate_task: 🦇
   default: 🦇
 banner_logo: |
   [bold #ff79c6]▓█████▄  ██▀███   ▄▄▄       ▄████▄   █    ██  ██▓    ▄▄▄             ▄▄▄        ▄████ ▓█████  ███▄    █ ▄▄▄█████▓
