@@ -1,0 +1,71 @@
+name: dracula
+description: Dracula theme — purple and pink gothic, dark atmosphere with blood red accents
+colors:
+  banner_border: '#BD93F9'
+  banner_title: '#BD93F9'
+  banner_accent: '#FF79C6'
+  banner_dim: '#6272A4'
+  banner_text: '#F8F8F2'
+  ui_accent: '#BD93F9'
+  ui_label: '#BD93F9'
+  ui_ok: '#50FA7B'
+  ui_error: '#FF5555'
+  ui_warn: '#FFB86C'
+  prompt: '#F8F8F2'
+  input_rule: '#6272A4'
+  response_border: '#BD93F9'
+  status_bar_bg: '#282A36'
+  status_bar_text: '#6272A4'
+  status_bar_strong: '#FF79C6'
+  status_bar_dim: '#44475A'
+  status_bar_good: '#50FA7B'
+  status_bar_warn: '#FFB86C'
+  status_bar_bad: '#FF5555'
+  status_bar_critical: '#FF5555'
+  voice_status_bg: '#282A36'
+  completion_menu_bg: '#282A36'
+  completion_menu_current_bg: '#44475A'
+  completion_menu_meta_bg: '#1E1F29'
+  completion_menu_meta_current_bg: '#44475A'
+  session_label: '#BD93F9'
+  session_border: '#6272A4'
+spinner:
+  waiting_faces:
+  - (o_O)
+  - (O_O)
+  - (-.-)
+  - (x_x)
+  thinking_faces:
+  - (@_@)
+  - (o_o)
+  - (?_?)
+  thinking_verbs:
+  - lurking
+  - feasting
+  - awakening
+  - hunting
+  - watching
+  wings:
+  - - 🦇
+    - 🦇
+  - - 🩸
+    - 🩸
+  - - ⚰️
+    - ⚰️
+branding:
+  agent_name: Dracula
+  welcome: Welcome back, master...
+  goodbye: Until next time...
+  response_label: ›
+  prompt_symbol: ❯
+  help_header: Dracula Commands
+tool_prefix: ┊
+tool_emojis:
+  terminal: 🗡
+  web_search: 🔮
+  file: 📜
+  code: 🩸
+  default: 🦇
+banner_logo: "  ███████▄     ▄████████    ▄████████  ▄████████ ███    █▄   ▄█          ▄████████              ▄████████    ▄██████▄     ▄████████ ███▄▄▄▄       ███\n  ███   ▀███   ███    ███   ███    ███ ███    ███ ███    ███ ███         ███    ███             ███    ███   ███    ███   ███    ███ ███▀▀▀██▄ ▀█████████▄\n  ███    ███   ███    ███   ███    ███ ███    █▀  ███    ███ ███         ███    ███             ███    ███   ███    █▀    ███    █▀  ███   ███    ▀███▀▀██\n  ███    ███  ▄███▄▄▄▄██▀   ███    ███ ███        ███    ███ ███         ███    ███             ███    ███  ▄███         ▄███▄▄▄     ███   ███     ███   ▀\n  ███    ███ ▀▀███▀▀▀▀▀   ▀███████████ ███        ███    ███ ███       ▀███████████           ▀███████████ ▀▀███ ████▄  ▀▀███▀▀▀     ███   ███     ███\n  ███    ███ ▀███████████   ███    ███ ███    █▄  ███    ███ ███         ███    ███             ███    ███   ███    ███   ███    █▄  ███   ███     ███\n  ███   ▄███   ███    ███   ███    ███ ███    ███ ███    ███ ███▌\
+  \    ▄   ███    ███             ███    ███   ███    ███   ███    ███ ███   ███     ███\n  ███████▀    ███    ███   ███    █▀  ████████▀  ████████▀  █████▄▄██   ███    █▀              ███    █▀    ████████▀    ██████████  ▀█   █▀     ▄████▀\n              ███    ███                                    ▀"
+banner_hero: "           oO\n          oO\n          oO\n           oO\n            oOo\n              oO\n               oO\n                oO\n                oO\n                oO\no               oO\nOo     .-\\     oO\n Oo   /\\   \\  oO\n  Oo. \\ \\   \\oO  .-\\\n   `Oo.\\ \\   \\.-'    \\\n     `Oo\\ \\        .-/\n        .-'     .-'.-'\n     .-'        \\-'\n    /\\    .-/\\   \\\n    \\ \\.-'.\\ \\   \\\n     \\/.-'   \\ \\   \\\n              \\ \\   \\\n               \\ \\   \\\n                \\ \\   \\\n                 \\ \\   \\\n                  \\ \\   \\\n                   \\ \\   \\\n                    \\ \\_-/\n                     \\/-'"
